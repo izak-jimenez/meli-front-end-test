@@ -12,7 +12,7 @@ Esta aplicación consiste de dos componentes:
 1. Servidor Express (Node.js)
 2. Cliente (React)
 
-Antes de poder utilizar la aplicación , es necesario ejecutar el script adecuado, según el ambiente, el cual se ubica en el directorio raíz del proyecto:
+Antes de poder utilizar la aplicación , es necesario ejecutar el script adecuado de `setup`, según el ambiente, el cual se ubica en el directorio raíz del proyecto:
 
 ### Mac OS
 
@@ -26,9 +26,13 @@ sh setup.sh
 setup.bat
 ```
 
+Este script se encarga de instalar todas las dependencias necesarias tanto para el servidor como para el cliente.
+
 Una vez que se ejecute el script de `setup`, tanto el servidor como el cliente web estarán habilitados y listos para utilizar.
 
 El servidor corre en el puerto `3001` y el cliente en el puerto `3000`. Asegúrate de mantener estos puertos libres antes de iniciar el proceso.
+
+La aplicación web se puede acceder desde `http://localhost:3000`.
 
 ## Pruebas
 
