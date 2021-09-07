@@ -1,0 +1,40 @@
+@use './constants';
+
+.breadcrumbs-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel-img {
+  width: 50% !important;
+}
+
+.item-details-title {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.integers {
+  font-size: 45px !important;
+}
+
+.cents {
+  font-weight: 300 !important;
+  font-size: 25px;
+  vertical-align: 15px;
+}
+
+.buy-button {
+  background-color: constants.$buttonPrimary !important;
+  color: constants.$white !important;
+}
+
+.product-description-title {
+  font-size: 30px !important;
+  font-weight: 500 !important;
+}
+
+.product-description {
+  font-size: 15px !important;
+  color: constants.$lightGray;
+}

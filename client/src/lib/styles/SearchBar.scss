@@ -1,0 +1,27 @@
+@use './constants';
+
+.search-bar-box {
+  background-color: constants.$primary-color;
+}
+
+.search-bar {
+  background-color: constants.$white;
+}
+
+.search-adornment {
+  background-color: constants.$grey !important;
+}
+
+.search-adornment-btn {
+  background-color: constants.$grey !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+}
+
+.meli-logo-container {
+  text-align: center;
+}
+
+.meli-logo-container:hover {
+  cursor: pointer;
+}
